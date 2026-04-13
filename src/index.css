@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* Ye line humare Dark Mode toggle ke liye zaroori hai */
+@custom-variant dark (&:is(.dark *));
+
+html {
+  scroll-behavior: smooth;
+}
